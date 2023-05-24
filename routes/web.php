@@ -20,3 +20,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', \App\Http\Livewire\Counter::class)->name('counter');
 Route::get('/counter', \App\Http\Livewire\Counter::class)->name('counter');
 Route::get('/calculator', \App\Http\Livewire\Calculator::class)->name('calculator');
+Route::get('/todo-list', \App\Http\Livewire\TodoList::class)->name('todo-list');
