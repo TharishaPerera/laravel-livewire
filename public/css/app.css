@@ -645,14 +645,26 @@ select {
 .fixed {
   position: fixed;
 }
+.absolute {
+  position: absolute;
+}
 .relative {
   position: relative;
+}
+.bottom-0 {
+  bottom: 0px;
+}
+.left-0 {
+  left: 0px;
 }
 .right-0 {
   right: 0px;
 }
 .top-0 {
   top: 0px;
+}
+.z-10 {
+  z-index: 10;
 }
 .mx-auto {
   margin-left: auto;
@@ -732,6 +744,9 @@ select {
 }
 .w-\[300px\] {
   width: 300px;
+}
+.w-\[400px\] {
+  width: 400px;
 }
 .w-auto {
   width: auto;
@@ -826,11 +841,18 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-opacity-90 {
+  --tw-bg-opacity: 0.9;
+}
 .p-16 {
   padding: 4rem;
 }
 .p-6 {
   padding: 1.5rem;
+}
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 .px-4 {
   padding-left: 1rem;
