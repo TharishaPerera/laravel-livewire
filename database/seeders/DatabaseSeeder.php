@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\Continent;
 use App\Models\Country;
+use App\Models\Product;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -29,5 +30,8 @@ class DatabaseSeeder extends Seeder
                 $c->countries()->saveMany(Country::factory(10)->make());
             });
         }
+
+        // generate fake Product data
+        Product::factory(100)->create();
     }
 }
