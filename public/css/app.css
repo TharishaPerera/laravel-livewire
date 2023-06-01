@@ -778,6 +778,9 @@ select {
 .h-8 {
   height: 2rem;
 }
+.h-\[90px\] {
+  height: 90px;
+}
 .min-h-screen {
   min-height: 100vh;
 }
@@ -808,6 +811,12 @@ select {
 .w-full {
   width: 100%;
 }
+.w-\[110px\] {
+  width: 110px;
+}
+.w-\[128px\] {
+  width: 128px;
+}
 .max-w-6xl {
   max-width: 72rem;
 }
@@ -833,6 +842,9 @@ select {
 }
 .flex-col {
   flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
 }
 .items-center {
   align-items: center;
@@ -932,6 +944,10 @@ select {
 }
 .bg-opacity-90 {
   --tw-bg-opacity: 0.9;
+}
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .p-16 {
   padding: 4rem;
